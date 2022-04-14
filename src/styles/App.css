@@ -1,0 +1,218 @@
+/* 
+    Created on   : 09/03/2022.
+    Theme Name   : Tobak - Creative bootstrap saas and software HTML template
+    Version      : 1.0
+    Author       : Themexplosion ( https://themeforest.net/user/themexplosion )
+*/
+
+/* Table of Content
+ --------------------
+ */
+/*   01 - Global Prefix  */
+/*   02 - Global Style  */
+/*   03 - Preloader  */
+/*   04 - Header  */
+/*   05 - Brand Carousel */
+/*   06 - Work Area*/
+/*   07 - About us  */
+/*   08 - Services */
+/*   09 - Price Table */
+/*   10 - Blog */
+/*   11 - Testimonial */
+/*   12 - Footer */
+/*   13 - Blog Grid Page */
+/*   14 - Subscribe Area */
+/*   15 - Contact Page */
+/*   16 - Google Maps */
+/*   17 - Blog List Page */
+/*   18 - Blog Details Page */
+/*   19 - About us page */
+/*   20 - Back To Top Btn */
+/*   21 - 404 page */
+
+/* =============== Global Prefix ============== */
+:root {
+  --blue-deep: #001e56;
+  --blue-light: #258aff;
+  --turq-light: #02f8d2;
+  --title-color: #1d293f;
+  --text-color: #7c8087;
+  --heading: #1d293f;
+  --title-font: "Inter", sans-serif;
+  --body-font: "DM Sans", sans-serif;
+}
+
+::selection {
+  background-color: var(--blue-light);
+  color: #ffffff;
+}
+
+*::placeholder {
+  color: #acaeb3;
+  font-size: 14px;
+  opacity: 1;
+}
+
+body {
+  font-family: var(--body-font);
+  background: #ffffff;
+}
+
+/* =============== Global Style ============== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  font-weight: 700;
+  font-family: var(--title-font);
+  line-height: 34px;
+  margin-bottom: 0;
+  user-select: text;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  text-decoration: none;
+}
+
+a {
+  display: inline-block;
+  user-select: text;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+p,
+span {
+  user-select: text;
+}
+
+img {
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-color);
+  font-family: var(--body-font);
+  margin-bottom: 0;
+}
+
+.cta-btn {
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #0f1e42;
+  border-radius: 5px;
+  background: #ffffff;
+  position: relative;
+  padding: 0 27px;
+}
+
+.cta-btn:hover {
+  background: #258aff;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-btn:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.title {
+  font-weight: 700;
+  color: var(--title-color);
+  font-family: var(--title-font);
+}
+
+.section-title .title {
+  font-size: 40px;
+  line-height: 1.4em;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+}
+
+.section-title .subtitle {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #6076a8;
+  padding: 0 420px;
+  margin-bottom: 0;
+}
+
+/* ===================== Background Color =========================== */
+.grey-bg {
+  background-color: #f7f8fa;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.black-bg {
+  background-color: #222;
+}

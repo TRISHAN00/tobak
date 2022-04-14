@@ -1,0 +1,41 @@
+.hero-banner {
+  background-image: url(../images/bg/hero-bg.png);
+  background-color: #00163e;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content .title {
+  font-family: var(--title-font);
+  letter-spacing: -1px;
+  color: #f9f9f9;
+}
+
+.hero-content .sub-title {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -1px;
+  color: #899cc9;
+  margin-right: 260px;
+  font-family: var(--body-font);
+}
+
+.talk-btn a span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.talk-btn a span:hover {
+  color: #02f8d2;
+  transition: 0.7s all ease-in-out;
+  -webkit-transition: 0.7s all ease-in-out;
+  -moz-transition: 0.7s all ease-in-out;
+  -ms-transition: 0.7s all ease-in-out;
+  -o-transition: 0.7s all ease-in-out;
+}

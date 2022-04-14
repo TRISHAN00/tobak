@@ -1,0 +1,99 @@
+/* =================== Footer ================= */
+
+.footerArea {
+  background-color: #001e56;
+}
+
+.footerWidget p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #d2d2d2;
+  margin-bottom: 0;
+}
+
+.footerWidget h5 {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fefefe;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.footerWidget ul li {
+  list-style: none;
+}
+
+.footerWidget ul li a {
+  font-size: 16px;
+  line-height: 40px;
+  color: #d2d2d2;
+  text-decoration: none;
+}
+
+.footerWidget ul li a:hover {
+  color: #ffd166;
+}
+
+.footerWidget ul li p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #d2d2d2;
+  margin-bottom: 0;
+}
+
+.widgetContact ul li p.colored {
+  color: #ffd166;
+}
+
+.widgetContact ul li a {
+  display: block;
+  color: #ffd166;
+  line-height: 1.8;
+}
+
+.widgetContact ul li a:hover {
+  color: #ffbf2b;
+}
+
+.widgetContact p {
+  margin-top: 32px;
+}
+
+.footerTop {
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #313d55;
+}
+
+.footerBottom {
+  position: relative;
+  z-index: 1;
+}
+
+.copyright p {
+  font-size: 13px;
+  line-height: 28px;
+  color: #d2d2d2;
+  margin-bottom: 0;
+}
+
+.socialWidget ul li {
+  display: inline-block;
+}
+
+.socialWidget ul li a {
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.socialWidget ul li a:hover {
+  color: var(--turq-light);
+}
+
+.footerOrnament {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
